@@ -26,9 +26,9 @@ def largest_palindrome(k):
             condition = (z[:int(n/2)] == z[int(n/2)+1:][::-1])
             
         if condition:
-             #print(' ',i,z)
-             arr.append(int(z))
-             
+            #print(' ',i,z)
+            arr.append(int(z))
+            
     return max(arr)
 
 num = int(input("Number of digits: "))
